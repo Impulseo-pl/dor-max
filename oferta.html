@@ -19,97 +19,83 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=8b665260">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,450;0,6..72,500;1,6..72,700;1,6..72,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261117">
+<meta name="theme-color" content="#0e3a3e">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">Dor-Max</span><span class="sub">Wałcz</span></a>
-    <nav class="nav-links">
-      <a href="oferta.html" class="active" aria-current="page">Oferta</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48602474496" class="btn btn-accent">Zadzwoń +48 602 474 496</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+<header class="fhead">
+  <div class="in">
+    <a class="mark" href="index.html" aria-label="Dor-Max - strona główna">Dor-Max</a>
+    <nav class="nav-links" aria-label="Menu"><a href="oferta.html" class="active">Oferta</a><a href="realizacje.html">Realizacje</a><a href="o-nas.html">O nas</a><a href="kontakt.html">Kontakt</a><a href="tel:+48602474496" class="pill m-only">Tel. +48 602 474 496</a></nav>
+    <div class="nav-cta">
+      <a class="pill" href="kontakt.html">Bezpłatna wycena</a>
+      <a class="tel-txt" href="tel:+48602474496">Tel. +48 602 474 496</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
   </div>
 </header>
 
 <main>
 <section class="pagehead">
-  <img src="img/g7.jpg" alt="Dor-Max - Zakres usług" width="1920" height="1277" decoding="async">
+  <img src="img/stk.jpg" alt="Dor-Max - zakres usług" fetchpriority="high" width="1920" height="1080" decoding="async">
   <div class="wrap">
-    <span class="eyebrow">Czym się zajmujemy</span>
+    <span class="eb">Oferta</span>
     <h1>Zakres usług</h1>
-    <p>Drzewa przy domu, na działce i przy drodze, elewacje domów i budynków firmowych. Powiedz przez telefon, co jest do zrobienia. Przyjedziemy, obejrzymy miejsce i podamy cenę, zanim zaczniemy.</p>
+    <p>Drzewa przy domu, na działce i&nbsp;przy drodze, elewacje domów i&nbsp;budynków firmowych. Powiedz przez telefon, co jest do zrobienia. Przyjedziemy, obejrzymy miejsce i&nbsp;podamy cenę, zanim zaczniemy.</p>
   </div>
 </section>
-<section>
+<section class="sec sec-sunk">
   <div class="wrap">
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g1.jpg" alt="Wycinka drzew" loading="lazy" width="1920" height="1283" decoding="async"></div>
-      <div>
-        <span class="num">01</span>
-        <h3>Wycinka drzew</h3>
-        <p class="muted">Wycinamy drzewa w całości albo kawałkami, od góry, gdy obok stoi dom, garaż albo płot. Gałęzie opuszczamy kontrolowanie, żeby nic nie spadło tam, gdzie nie trzeba.</p>
-      </div>
+    <div class="svc-head reveal">
+      <div><span class="eb">Usługi</span><h2 class="h2">Sześć rzeczy, które robimy najczęściej.</h2></div>
+      <p class="lead">Do każdego zlecenia dobieramy sprzęt: podnośnik koszowy albo jedną z&nbsp;trzech drabin.</p>
     </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g2.jpg" alt="Przycinanie i cięcie korony" loading="lazy" width="1920" height="1081" decoding="async"></div>
-      <div>
-        <span class="num">02</span>
-        <h3>Przycinanie i cięcie korony</h3>
-        <p class="muted">Skracamy konary nad dachem, odcinamy suche i połamane gałęzie, przerzedzamy koronę. Drzewo zostaje, a przestaje zagrażać budynkom i ludziom.</p>
-      </div>
+    <div class="svc-grid">
+      <article class="svc-card reveal">
+        <img src="img/g1.jpg" alt="Wycinka drzew" fetchpriority="high" width="1400" height="935" decoding="async">
+        <span class="n">/01</span>
+        <div class="svc-tt"><h3>Wycinka drzew</h3><a href="kontakt.html" aria-label="Wycena: Wycinka drzew"><span class="sq" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></span></a></div>
+        <p>Wycinamy drzewa w&nbsp;całości albo kawałkami, od góry, gdy obok stoi dom, garaż albo płot. Gałęzie opuszczamy kontrolowanie, żeby nic nie spadło tam, gdzie nie trzeba.</p>
+      </article><article class="svc-card reveal">
+        <img src="img/g2.jpg" alt="Mycie elewacji" fetchpriority="high" width="1920" height="1081" decoding="async">
+        <span class="n">/02</span>
+        <div class="svc-tt"><h3>Mycie elewacji</h3><a href="kontakt.html" aria-label="Wycena: Mycie elewacji"><span class="sq" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></span></a></div>
+        <p>Zmywamy zielony nalot, glony, kurz i&nbsp;zacieki ze ścian domów i&nbsp;budynków. Wysokie partie elewacji myjemy z&nbsp;kosza podnośnika albo z&nbsp;drabiny.</p>
+      </article><article class="svc-card reveal">
+        <img src="img/g3.jpg" alt="Przycinanie i cięcie korony" fetchpriority="high" width="1920" height="1280" decoding="async">
+        <span class="n">/03</span>
+        <div class="svc-tt"><h3>Przycinanie i&nbsp;cięcie korony</h3><a href="kontakt.html" aria-label="Wycena: Przycinanie i cięcie korony"><span class="sq" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></span></a></div>
+        <p>Skracamy konary nad dachem, odcinamy suche i&nbsp;połamane gałęzie, przerzedzamy koronę. Drzewo zostaje, a&nbsp;przestaje zagrażać budynkom i&nbsp;ludziom.</p>
+      </article><article class="svc-card reveal">
+        <img src="img/g5.jpg" alt="Prace z podnośnika koszowego" fetchpriority="high" width="1920" height="900" decoding="async">
+        <span class="n">/04</span>
+        <div class="svc-tt"><h3>Prace z&nbsp;podnośnika koszowego</h3><a href="kontakt.html" aria-label="Wycena: Prace z podnośnika koszowego"><span class="sq" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></span></a></div>
+        <p>Mamy własną zwyżkę. Z&nbsp;kosza dochodzimy do korony wysokiego drzewa, rynny, szczytu dachu czy elewacji bez stawiania rusztowania.</p>
+      </article><article class="svc-card reveal">
+        <img src="img/g4.jpg" alt="Prace na wysokości" loading="lazy" width="1824" height="1160" decoding="async">
+        <span class="n">/05</span>
+        <div class="svc-tt"><h3>Prace na wysokości</h3><a href="kontakt.html" aria-label="Wycena: Prace na wysokości"><span class="sq" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></span></a></div>
+        <p>Drabiny w&nbsp;trzech długościach i&nbsp;podnośnik pozwalają nam dobrać sprzęt do miejsca. Dzwoń także z&nbsp;nietypowym zleceniem na wysokości, powiemy wprost, czy się podejmiemy.</p>
+      </article><article class="svc-card reveal">
+        <img src="img/g6.jpg" alt="Gałęzie i drewno" loading="lazy" width="1920" height="1581" decoding="async">
+        <span class="n">/06</span>
+        <div class="svc-tt"><h3>Gałęzie i&nbsp;drewno</h3><a href="kontakt.html" aria-label="Wycena: Gałęzie i drewno"><span class="sq" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></span></a></div>
+        <p>Po wycince zabieramy gałęzie albo układamy drewno na posesji, tak jak ustalimy przy wycenie.</p>
+      </article>
     </div>
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g3.jpg" alt="Prace z podnośnika koszowego" loading="lazy" width="1920" height="1280" decoding="async"></div>
-      <div>
-        <span class="num">03</span>
-        <h3>Prace z podnośnika koszowego</h3>
-        <p class="muted">Mamy własną zwyżkę. Z kosza dochodzimy do korony wysokiego drzewa, rynny, szczytu dachu czy elewacji bez stawiania rusztowania.</p>
-      </div>
-    </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g4.jpg" alt="Mycie elewacji" loading="lazy" width="1824" height="1160" decoding="async"></div>
-      <div>
-        <span class="num">04</span>
-        <h3>Mycie elewacji</h3>
-        <p class="muted">Zmywamy zielony nalot, glony, kurz i zacieki ze ścian domów i budynków. Wysokie partie elewacji myjemy z kosza podnośnika albo z drabiny.</p>
-      </div>
-    </div>
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g5.jpg" alt="Prace na wysokości" loading="lazy" width="1920" height="900" decoding="async"></div>
-      <div>
-        <span class="num">05</span>
-        <h3>Prace na wysokości</h3>
-        <p class="muted">Drabiny w trzech długościach i podnośnik pozwalają nam dobrać sprzęt do miejsca. Dzwoń także z nietypowym zleceniem na wysokości, powiemy wprost, czy się podejmiemy.</p>
-      </div>
-    </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g6.jpg" alt="Gałęzie i drewno" loading="lazy" width="1920" height="1581" decoding="async"></div>
-      <div>
-        <span class="num">06</span>
-        <h3>Gałęzie i drewno</h3>
-        <p class="muted">Po wycince zabieramy gałęzie albo układamy drewno na posesji, tak jak ustalimy przy wycenie.</p>
-      </div>
-    </div>
+    <p class="svc-foot reveal">Nie wiesz, czego potrzebujesz? <a href="kontakt.html">Umów bezpłatne oględziny</a>, tel. <a href="tel:+48602474496">+48 602 474 496</a>.</p>
   </div>
 </section>
-
 <section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Która z usług Cię interesuje?</h2>
-      <p>Napisz, co chcesz zrobić - odpowiemy z propozycją i wyceną.</p>
-    </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48602474496" class="btn btn-ghost btn-ghost-cta">+48 602 474 496</a>
+  <div class="wrap reveal">
+    <h2>Która z&nbsp;usług Cię interesuje?</h2>
+    <p>Opisz, co trzeba zrobić. Przyjedziemy, obejrzymy miejsce i&nbsp;podamy cenę przed rozpoczęciem pracy.</p>
+    <div class="cta-act">
+      <a href="kontakt.html" class="btn btn-teal">Bezpłatna wycena</a>
+      <a href="tel:+48602474496" class="btn btn-line-w">Zadzwoń: +48 602 474 496</a>
     </div>
   </div>
 </section>
@@ -117,36 +103,30 @@
 
 <footer>
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Dor-Max</div>
-        <p>Wycinamy i przycinamy drzewa, także te rosnące tuż przy domu, płocie albo linii. Myjemy elewacje.</p>
+    <div class="f-top">
+      <div>
+        <a class="f-brand" href="index.html"><span class="mark">Dor-Max</span></a>
+        <p class="f-addr">Wałcz i&nbsp;okolice, zachodniopomorskie</p>
+        <div class="f-lbl">Telefon</div>
+        <a class="f-tel" href="tel:+48602474496">+48 602 474 496</a>
+        <div class="f-soc">
+          <a href="https://www.google.com/maps/place/Dor-Max/@53.2871743,16.484693,5527m/data=!3m1!1e3!4m6!3m5!1s0x69ce90d8d3153a19:0x66012f73a1a82cf1!8m2!3d53.302937!4d16.4756569!16s%2Fg%2F11p5dlf0l5" target="_blank" rel="noopener" aria-label="Google - Dor-Max"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
+        </div>
       </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="oferta.html">Oferta</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48602474496">+48 602 474 496</a>
-        <p>Wałcz, zachodniopomorskie</p>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.google.com/maps/place/Dor-Max/@53.2871743,16.484693,5527m/data=!3m1!1e3!4m6!3m5!1s0x69ce90d8d3153a19:0x66012f73a1a82cf1!8m2!3d53.302937!4d16.4756569!16s%2Fg%2F11p5dlf0l5" target="_blank" rel="noopener" aria-label="Google - Dor-Max"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
-      </div>
+      <nav class="f-nav" aria-label="Stopka">
+        <a href="oferta.html">Oferta</a><a href="realizacje.html">Realizacje</a><a href="o-nas.html">O&nbsp;nas</a>
+        <a href="kontakt.html">Kontakt</a><a href="index.html#faq">Pytania</a><a href="index.html#obszar">Obszar działania</a>
+      </nav>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 Dor-Max</span>
+    <div class="f-bot">
+      <span>© 2026 Dor-Max · wycinka drzew · prace na wysokości · mycie elewacji</span>
       <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
 </footer>
-<div class="sticky-call"><a class="sc-call" href="tel:+48602474496"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zobacz, jak pracujemy</a></div>
+<div class="sticky-call"><a class="sc-call" href="tel:+48602474496"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Bezpłatna wycena</a></div>
 <div class="demo-wazne" data-do="2026-11-23" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=20261117"></script>
 </body>
 </html>
